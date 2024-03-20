@@ -8,8 +8,8 @@ const app = express();
 
 connectDB()
   .then(() => {
-    app.listen(process.env.PORT || 3001, () => {
-      console.log(`Server started at port : ${process.env.PORT || 3001}`);
+    app.listen(process.env.PORT || 8000, () => {
+      console.log(`Server started at port : ${process.env.PORT || 8000}`);
     });
   })
   .catch((error) => {
